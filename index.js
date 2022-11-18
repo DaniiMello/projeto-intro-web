@@ -9,7 +9,7 @@ const jogos = [
         desenvolvedor: 'Stumpy Squid',
         categoria: [" Estratégia", " Aventura", " Indie"],
         linkJogo: "https://store.steampowered.com/app/701160/Kingdom_Two_Crowns/",
-        imgJogo:".projeto-intro-web/kingdom.jpg",
+        imgJogo:"kingdom.jpg",
         },
     jogo2={
             nome:'Story of Seasons: Friends of Mineral Town',
@@ -20,7 +20,7 @@ const jogos = [
             desenvolvedor: 'Marvelous Inc.',
             categoria: [" Simulação", " Simulador Rural", " RPG"," Casual", " Fofo"],
             linkJogo: "https://store.steampowered.com/app/978780/STORY_OF_SEASONS_Friends_of_Mineral_Town/",
-            imgJogo: ".projeto-intro-web/sos.jpg",
+            imgJogo: "sos.jpg",
          },
     jogo3={
                 nome:'Rune Factory 5',
@@ -31,7 +31,7 @@ const jogos = [
                 desenvolvedor: 'Marvelous Inc',
                 categoria: ["RPG", " Aventura", " Simulador Rural", " Simulação"],
                 linkJogo: "https://store.steampowered.com/app/1702330/Rune_Factory_5/",
-                imgJogo: ".projeto-intro-web/rune.jpg",
+                imgJogo: "rune.jpg",
          },
     jogo4={
                 nome:'New World',
@@ -42,18 +42,18 @@ const jogos = [
                 desenvolvedor: 'Amazon Games',
                 categoria: ["Multijogador Massivo ", "Mundo Aberto ", "MMORPG "],
                 linkJogo: "https://store.steampowered.com/app/1063730/New_World/",
-                imgJogo:".projeto-intro-web/new.jpg",
+                imgJogo:"new.jpg",
          },
     jogo5= {
                     nome:'Final Fantasy XIV Online',
                     ano: 2014,
                     preco: 52.99,
                     descricao: 'Faça parte de um FINAL FANTASY épico e sempre renovado, aventurando-se e explorando ao lado de amigos do mundo inteiro.',
-                    expansao: false,
+                    expansao: true,
                     desenvolvedor: 'Square Enix',
                     categoria: ["Multijogador Massivo", " Mundo Aberto", " MMORPG"," Fantasia"],
                     linkJogo: "https://store.steampowered.com/app/39210/FINAL_FANTASY_XIV_Online/",
-                    imgJogo:".projeto-intro-web/ffx.jpg",
+                    imgJogo:"ffx.jpg",
           }
 ]
 let soma = 0;

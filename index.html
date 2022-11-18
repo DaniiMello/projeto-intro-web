@@ -4,32 +4,161 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogos da Steam</title>
-    <script src="index.js"></script>
+    <title>Meus Jogos da Steam</title>
+    <script src="index.js" defer></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <section class="page-wrapper">
     <header>
-        <p>Jogos da Steam</p>
-        <a  href="https://store.steampowered.com/?l=brazilian" target="_blank">
-            <img src="projeto-intro-web/download.jpg" alt="Steam">
-            </a>
+           <h1>Meus Jogos da Steam</h1>
     </header>
-    <main>
-        <form class="input" action="#">
-            <label id="jogos" for="nome"></label>
-            <input id="nome" type="text" name="nome" onkeyup="limpar()" placeholder="Digite um jogo">
-            <button id="button" type="submit" onclick="enviar()">Localizar</button>
-         </form>
-         <section>section</section>
-    </main>
+        <section class="search">
+            <form class="input" action="#">
+                <label id="jogos" for="nome"></label>
+                <input id="nome" type="text" name="nome" onkeyup="limpar()" placeholder="Digite um jogo ou categoria">
+                <button class="button" id="button" type="submit" onclick="enviar()">Procurar</button>
+             </form>
+            </header>
+        </section>
+            <section class="section-games-cards-container">
+                <section class="game-card">
+                    <img src="rune.jpg" alt="Rune Factory 5">
+                    <section class="game-card-content">
+                        <a href="https://game8.co/games/Rune-Factory-5" target="_blank">
+                        <h2>Rune Factory 5</h2></a>
+                        <p>
+                            Como o mais novo soldado da organização mantenedora da paz, mais conhecido como SEED, proteja a comunidade cercada por monstros e enfrentes missões especiais. Cultive plantações em sua fazenda e faça amigos enquanto descobre os mistérios das ruínas.
+                        </p>
+                        <p>
+                            <ul class="game-card-content-info">
+                                <li>Categoria: RPG, Aventura, Simulador Rural, Simulação</li>
+                                <li>Ano: 2022</li>
+                                <li>Preço: R$189,95</li>
+                                <li>Tem Expansão? Não</li>
+                                <li>Desenvolvedor: Marvelous Inc.</li>
+                            </ul>
+                        </p>
+                        <section class="game-card-links">
+                            <a href="https://store.steampowered.com/app/1702330/Rune_Factory_5/" target="_blank">
+                                <img src="steam.jpg" alt="Steam icon" width="25" height="25">
+                                Steam
+                            </a>
+                        </section>
+                    </section>
+                </section>
+                <section class="game-card">
+                    <img src="sos.jpg" alt="Story of Seasons: Friends of Mineral Town">
+                    <section class="game-card-content">
+                        <a href="https://fogu.com/sos3/" target="_blank">
+                        <h2>Story of Seasons: Friends of Mineral Town</h2></a>
+                        <p>
+                            Experimente os prazeres da vida na fazenda, neste remake do clássico Harvest Moon:Friends of Mineral Town.
+                        </p>
+                        <p>
+                            <ul class="game-card-content-info">
+                                <li>Categoria: Simulação, Simulador Rural, RPG, Casual, Fofo</li>
+                                <li>Ano: 2020</li>
+                                <li>Preço: R$93,99</li>
+                                <li>Tem Expansão? Não</li>
+                                <li>Desenvolvedor: Marvelous Inc</li>
+                            </ul>
+                        </p>
+                        <section class="game-card-links">
+                            <a href="https://store.steampowered.com/app/978780/STORY_OF_SEASONS_Friends_of_Mineral_Town/" target="_blank">
+                                <img src="steam.jpg" alt="Steam icon" width="25" height="25">
+                                Steam
+                            </a>
+                        </section>
+                    </section>
+                </section>
+                <section class="game-card">
+                    <img src="kingdom.jpg" alt="Kingdom Two Crowns">
+                    <section class="game-card-content">
+                        <a href="https://kingdomthegame.fandom.com/wiki/Kingdom_Wiki" target="_blank">
+                        <h2>Kingdom Two Crowns</h2></a>
+                        <p>
+                            Construa o seu reino e proteja-o da ameaça dos greed na nova evolução da premiada série de micro estratégia. Experimente novas tecnologias, unidades, inimigos, montarias e segredos no novo modo campanha solo ou cooperativo.
+                        </p>
+                        <p>
+                            <ul class="game-card-content-info">
+                                <li>Categoria: Estratégia, Aventura, Indie</li>
+                                <li>Ano: 2018</li>
+                                <li>Preço: R$23,70</li>
+                                <li>Tem Expansão? Sim</li>
+                                <li>Desenvolvedor: Stumpy Squid</li>
+                            </ul>
+                        </p>
+                        <section class="game-card-links">
+                            <a href="https://store.steampowered.com/app/701160/Kingdom_Two_Crowns/" target="_blank">
+                                <img src="steam.jpg" alt="Steam icon" width="25" height="25">
+                                Steam
+                            </a>
+                        </section>
+                    </section>
+                </section>
+                <section class="game-card">
+                    <img src="new.jpg" alt="New World">
+                    <section class="game-card-content">
+                        <a href="https://newworld.fandom.com/wiki/New_World_Wiki" target="_blank">
+                        <h2>New World</h2></a>
+                        <p>
+                            Explore um MMO de mundo aberto emocionante e cheio de perigos e oportunidades, onde você irá forjar um novo destino na ilha sobrenatural de Aeternum.
+                        </p>
+                        <p>
+                            <ul class="game-card-content-info">
+                                <li>Categoria: Multijogador Masivo, Mundo Aberto, MMORPG</li>
+                                <li>Ano: 2021</li>
+                                <li>Preço: R$75,49</li>
+                                <li>Tem Expansão? Não</li>
+                                <li>Desenvolvedor: Amazon Games</li>
+                            </ul>
+                        </p>
+                        <section class="game-card-links">
+                            <a href="https://store.steampowered.com/app/1063730/New_World/" target="_blank">
+                                <img src="steam.jpg" alt="Steam icon" width="25" height="25">
+                                Steam
+                            </a>
+                        </section>
+                    </section>
+                </section>
+                <section class="game-card">
+                    <img src="ffx.jpg" alt="Final Fantasy XIV Online">
+                    <section class="game-card-content">
+                        <a href="https://ffxiv.consolegameswiki.com/wiki/FF14_Wiki" target="_blank">
+                        <h2>Final Fantasy XIV Online</h2></a>
+                        <p>
+                            Faça parte de um FINAL FANTASY épico e sempre renovado, aventurando-se e explorando ao lado de amigos do mundo inteiro.
+                        </p>
+                        <p>
+                            <ul class="game-card-content-info">
+                                <li>Categoria: Multijogador Massivo, Mundo Aberto, MMORPG, Fantasia</li>
+                                <li>Ano: 2014</li>
+                                <li>Preço: R$52,99</li>
+                                <li>Tem Expansão? Sim</li>
+                                <li>Desenvolvedor: Square Enix</li>
+                            </ul>
+                        </p>
+                        <section class="game-card-links">
+                            <a href="https://store.steampowered.com/app/39210/FINAL_FANTASY_XIV_Online/" target="_blank">
+                                <img src="steam.jpg" alt="Steam icon" width="25" height="25">
+                                Steam
+                            </a>
+                        </section>
+                    </section>
+                </section>
+
+        </section>
+    </section>
     <footer>
-        <p>Criado por:</p>
         <p>Danielle Mello</p>
-        <a  href="https://github.com/DaniiMello" target="_blank">
-            <img src="projeto-intro-web/GitHub.png" alt="GitHub">
-        </a>
-        
+        <a href="https://github.com/DaniiMello" target="_blank">
+            <img src="Github.svg" alt="Git Hub icon" width="35" height="35">
     </footer>
 </body>
 </html>
+
+ 

@@ -1,0 +1,134 @@
+/* ================ GLOBAL ============= */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'DM Sans', sans-serif;
+    text-align:center;
+    background-color:lightslategray;
+    color: gray;
+}
+.page-wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* *== Header ==* */
+header{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    height:120px;
+    background: slategray;
+    font-weight:700;
+    margin-right: auto;
+    font-family: 'DM Sans', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    background-image: linear-gradient(to left, #3b1922, #d28574, #3b1922);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    align-items: center;
+    }
+    
+.search{
+    margin: 15px 0 0 0;
+}
+.button{
+    background: slategray;
+	color: #fff;
+	border: 1px solid slategray;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px lightgray;
+	text-shadow: none;
+    width: 70px;
+    height: 20px;
+}
+.button:hover{
+    background: darkgray;
+	color: #fff;
+	border: 1px solid darkgray;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px lightgray;
+	text-shadow: none;
+}
+/* ================== Games ================== */
+.section-games-cards-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.game-card {
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    width: 460px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin-top: 48px;
+    box-shadow: -1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+.game-card h2 {
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 3px 0;
+    background-image: linear-gradient(to left, #3b1922, #d28574, #3b1922);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.game-card p{
+    font-size: 18px;
+    color: gray;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    
+}
+.game-card a{
+    text-decoration: none;
+}
+.game-card-content {
+    padding: 24px;
+    padding-bottom: calc(24px - 7px);
+    transform: translateY(-7px);
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 16px;
+    text-align: justify;
+    color: gray
+}
+.game-card-content-info{
+    font-weight: 400;
+    color: gray;
+    text-align: justify;
+    padding-left: 15px;
+}
+.game-card-links {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.game-card-links a {
+    display: flex;
+    align-items: center;
+    justify-content: bottom;
+}
+.game-card-links a img {
+    margin-right: 10px;
+}
+/* ================== Footer ================== */
+footer{
+    color: #3b1922;
+}
